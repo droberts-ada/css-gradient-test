@@ -1,0 +1,47 @@
+#main .row {
+  height: 30px;
+  white-space: nowrap;
+}
+
+#main .square {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.square.darkgrey {
+  background: radial-gradient(white, darkgrey);
+}
+.square.darkgoldenrod {
+  background: radial-gradient(white, darkgoldenrod);
+}
+.square.darkorange {
+  background: radial-gradient(white, darkorange);
+}
+.square.darkgreen {
+  background: radial-gradient(white, darkgreen);
+}
+.square.turquoise {
+  background: radial-gradient(white, turquoise);
+}
+.square.navy {
+  background: radial-gradient(white, navy);
+}
+.square.mediumvioletred {
+  background: radial-gradient(white, mediumvioletred);
+}
+.square.salmon {
+  background: radial-gradient(white, salmon);
+}
+.square.red {
+  background: radial-gradient(white, red);
+}
+
+.square.selected {
+  background: radial-gradient(white, gold);
+}

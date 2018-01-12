@@ -1,0 +1,47 @@
+#main .row {
+  height: 30px;
+  white-space: nowrap;
+}
+
+#main .square {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.square.darkgrey {
+  background-color: darkgrey;
+}
+.square.darkgoldenrod {
+  background-color: darkgoldenrod;
+}
+.square.darkorange {
+  background-color: darkorange;
+}
+.square.darkgreen {
+  background-color: darkgreen;
+}
+.square.turquoise {
+  background-color: turquoise;
+}
+.square.navy {
+  background-color: navy;
+}
+.square.mediumvioletred {
+  background-color: mediumvioletred;
+}
+.square.salmon {
+  background-color: salmon;
+}
+.square.red {
+  background-color: red;
+}
+
+.square.selected {
+  background-color: gold;
+}
