@@ -14,9 +14,9 @@ const COLORS = [
 ];
 
 const render = function render(mouseRow, mouseCol) {
-  const renderStartTime = window.performance.now();
+  const renderStartTime = performance.now();
   requestAnimationFrame(() => {
-    const delta = window.performance.now() - renderStartTime;
+    const delta = performance.now() - renderStartTime;
     console.log(`render to RAF: ${delta} ms`);
   });
 
@@ -39,7 +39,7 @@ const render = function render(mouseRow, mouseCol) {
     main.append(row);
   }
 
-  const delta = window.performance.now() - renderStartTime;
+  const delta = performance.now() - renderStartTime;
   console.log(`render top to bottom: ${delta} ms`);
 };
 
