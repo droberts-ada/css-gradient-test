@@ -1,5 +1,5 @@
-const ROWS = 20;
-const COLS = 20;
+const ROWS = 30;
+const COLS = 30;
 
 const COLORS = [
   "darkgrey",
@@ -44,5 +44,10 @@ const render = function render(mouseRow, mouseCol) {
 };
 
 $(document).ready(() => {
+  $('#switch-styles').on('click', (e) => {
+    const main = $('#main');
+    main.toggleClass('gradient');
+    main.toggleClass('solid');
+  });
   render();
 });

@@ -13,35 +13,3 @@
   border-width: 1px;
   border-color: black;
 }
-
-.square.darkgrey {
-  background-color: darkgrey;
-}
-.square.darkgoldenrod {
-  background-color: darkgoldenrod;
-}
-.square.darkorange {
-  background-color: darkorange;
-}
-.square.darkgreen {
-  background-color: darkgreen;
-}
-.square.turquoise {
-  background-color: turquoise;
-}
-.square.navy {
-  background-color: navy;
-}
-.square.mediumvioletred {
-  background-color: mediumvioletred;
-}
-.square.salmon {
-  background-color: salmon;
-}
-.square.red {
-  background-color: red;
-}
-
-.square.selected {
-  background-color: gold;
-}

@@ -14,34 +14,66 @@
   border-color: black;
 }
 
-.square.darkgrey {
+.gradient .square.darkgrey {
   background: radial-gradient(white, darkgrey);
 }
-.square.darkgoldenrod {
+.gradient .square.darkgoldenrod {
   background: radial-gradient(white, darkgoldenrod);
 }
-.square.darkorange {
+.gradient .square.darkorange {
   background: radial-gradient(white, darkorange);
 }
-.square.darkgreen {
+.gradient .square.darkgreen {
   background: radial-gradient(white, darkgreen);
 }
-.square.turquoise {
+.gradient .square.turquoise {
   background: radial-gradient(white, turquoise);
 }
-.square.navy {
+.gradient .square.navy {
   background: radial-gradient(white, navy);
 }
-.square.mediumvioletred {
+.gradient .square.mediumvioletred {
   background: radial-gradient(white, mediumvioletred);
 }
-.square.salmon {
+.gradient .square.salmon {
   background: radial-gradient(white, salmon);
 }
-.square.red {
+.gradient .square.red {
   background: radial-gradient(white, red);
 }
 
-.square.selected {
+.gradient .square.selected {
   background: radial-gradient(white, gold);
+}
+
+.solid .square.darkgrey {
+  background-color: darkgrey;
+}
+.solid .square.darkgoldenrod {
+  background-color: darkgoldenrod;
+}
+.solid .square.darkorange {
+  background-color: darkorange;
+}
+.solid .square.darkgreen {
+  background-color: darkgreen;
+}
+.solid .square.turquoise {
+  background-color: turquoise;
+}
+.solid .square.navy {
+  background-color: navy;
+}
+.solid .square.mediumvioletred {
+  background-color: mediumvioletred;
+}
+.solid .square.salmon {
+  background-color: salmon;
+}
+.solid .square.red {
+  background-color: red;
+}
+
+.solid .square.selected {
+  background-color: gold;
 }
